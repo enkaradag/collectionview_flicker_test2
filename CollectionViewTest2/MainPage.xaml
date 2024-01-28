@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollectionViewTest2.MainPage">
+
+    <StackLayout Padding="10" Spacing="10" VerticalOptions="Fill">
+        <Button x:Name="btn_fill" Text="Fill With 1000 Rows of Data" Clicked="btn_fill_Clicked"/>
+        <Label x:Name="lbl_indicator" Text="App responsive indicator. This label scales smoothly when app is responsive" HorizontalTextAlignment="Center"/>
+        <CollectionView x:Name="view" SelectionMode="Single" HeightRequest="500"/>
+    </StackLayout>
+
+</ContentPage>
